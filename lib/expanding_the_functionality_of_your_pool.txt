@@ -1,0 +1,36 @@
+Hello.
+
+introduction:
+I found a convenient pool for mining https://krb.miner.rocks/
+it is based on the cryptonote-forknote-pool v1.1.4 code but they have been modified.
+
+1. their code section of the website I downloaded myself.
+http://krb.pool.ualinux.com/ROCK/
+(
+config.js
+var api = "https://krb.miner.rocks/api";
+)
+but (!)
+I assume they have remade the code of the pool itself and the API of their pool gives much more information
+https://krb.miner.rocks/api/stats
+
+so their website does not work with the API that returns your pool
+(
+config.js
+var api = "http://krb.pool.ualinux.com:8117";
+)
+and the following result is obtained
+http://krb.pool.ualinux.com/ROCK2/
+
+
+question:
+Could you develop a code for your pool so that its API could return more information?
+
+P.S.
+code website
+http://krb.pool.ualinux.com/ROCK/
+I am happy to give you, and you will just add it to your project
+
+my mail: main@ualinux.com
+
+Thank you. I will wait for an answer.
